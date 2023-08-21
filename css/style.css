@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+
+body {
+    height: 3000px;
+}
+
+header {
+    background-image: url('../img/header_bg.svg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 115vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cabin', sans-serif;
+}
+
+.menu-first_element {
+    margin-top: 43px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+
+}
+
+.menu-first_element p{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+
+    color: white;
+}
+
+.metka {
+    width: 26px;
+    height: 34px;
+    padding-right: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: white;
+
+}
+
+ul .menu-elements {
+    margin-top: 53px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    margin-left: 13%;
+}
+
+.header-container {
+    width: 561px;
+    margin-top: 301px;
+    margin-left: 135px;
+}
+
+.container-title {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.container-text {
+    padding-top: 40px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(183, 230, 255, 1);
+}
+
+.container-search {
+    margin-top: 58px;
+    display: flex;
+    gap: 20px;
+
+    background-color: white;
+    
+    border-radius: 31px;
+    width: fit-content;
+
+    padding: 4px 4px 4px 30px
+}
+
+.container-input {
+    display: block;
+
+    width: 280px;
+
+    border: none;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #BDD3DF;
+
+
+}
+
+
+.container-input::-webkit-input-placeholder {
+    font-family: 'Cabin', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: rgba(189, 211, 223, 1);
+
+}
+
+.container-input:focus{
+    outline: none;
+}
+
+.input_search{
+
+    width: 31px;
+    height: 31px;
+
+    background-image: url('../img/search.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-color: #13F1FC;
+
+    padding: 12px 28px;
+
+    box-sizing: content-box;
+
+    border: none;
+    outline: none;
+
+    border-radius: 50px;
+}
+
+.women-image {
+    width: 642px;
+    height: 448px;
+    background-image: url('../img/woman.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 222px;
+    margin-left: 9px;
+
+}
+
+main {
+    background-image: url('../img/Vector 5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 1400px;
+    margin-top: 300px;
+}
+
+.main-phone {
+    background-image: url('../img/phone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 694px;
+    height: 578px;
+    
+}
+
+.main-block {
+    display: flex;
+    margin-left: 330px;
+}
+
+
+.main_container {
+    width: 374px;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.main-title {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+}
+
+.main-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(183, 230, 255, 1);
+    margin-top: 26px;
+}
+
+.download1 {
+    width: 181px;
+    height: 49px;
+    background-color: rgba(19, 241, 252, 0.2);
+    border: 2px solid rgba(19, 241, 252, 0.2);
+    border-radius: 24.5px;
+
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: white;
+    padding-left: 30px;
+
+    background-image: url('../img/android.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 15%;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.download2 {
+    width: 181px;
+    height: 49px;
+    background-color: rgba(19, 241, 252, 0.2);
+    border: 2px solid rgba(19, 241, 252, 0.2);
+    border-radius: 24.5px;
+
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: white;
+    padding-left: 30px;
+
+    background-image: url('../img/apple.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 15%;
+    cursor: pointer;
+    margin-top: 50px;
+}
